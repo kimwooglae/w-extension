@@ -1,0 +1,14 @@
+{
+  "name": "HTML Downloader",
+  "description": "HTML 다운로더",
+  "version": "1.0",
+  "permissions": ["activeTab", "scripting"],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "action": {
+    "default_title": "download html"
+  },
+
+  "manifest_version": 3
+}
